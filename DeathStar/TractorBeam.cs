@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DeathStar;
 
 namespace TopSecretPlans
 {
-    public class TractorBeam : Reactor
+    public class TractorBeam : Reactor, Iactivate
     {
         public int TractorBeamLevel
         {
-            private set
+             set
             {
                 TractorBeamLevel = value;
             }
@@ -40,6 +41,15 @@ namespace TopSecretPlans
         {
             Tractorbeamgeneratortower(power);
             //Console.WriteLine($"Your tractor bean starts pulling with {power} at {direction} degrees");
+        }
+        public void activate()
+        {
+            TractorBeamLevel();
+            GenerateTractorBeam();
+        }
+        public void refresh()
+        {
+
         }
     }
 }

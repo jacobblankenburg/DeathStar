@@ -46,7 +46,9 @@
     <Compile Include="Armory.cs" />
     <Compile Include="CentralComputerCore.cs" />
     <Compile Include="CoolingSystem.cs" />
+    <Compile Include="deathBlaster.cs" />
     <Compile Include="Destination.cs" />
+    <Compile Include="Detector.cs" />
     <Compile Include="Exhaust.cs" />
     <Compile Include="ExteriorQuadaniumsteelouterhull.cs" />
     <Compile Include="FuelCollector.cs" />
@@ -57,6 +59,7 @@
     <Compile Include="HydrogenGenerator.cs" />
     <Compile Include="HyperDrive.cs" />
     <Compile Include="HyperMatterReactor.cs" />
+    <Compile Include="Iactivate.cs" />
     <Compile Include="IChangeTemperature.cs" />
     <Compile Include="IonDriveReactor.cs" />
     <Compile Include="MagneticShielding.cs" />

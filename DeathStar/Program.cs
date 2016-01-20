@@ -11,6 +11,9 @@ namespace DeathStar
     {
         static void Main(string[] args)
         {
+            deathBlaster planetKillere = new deathBlaster();
+            planetKillere.planetKillerFull();
+            
         }
     }
 }
